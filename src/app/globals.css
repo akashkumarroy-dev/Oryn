@@ -5,16 +5,39 @@
   --background: #000000;
   --foreground: #FBF9FA;
 
+  --primary: #000000;
+  --primary-foreground: #FBF9FA;
+
+  --secondary: #1A1A1A;
+  --secondary-foreground: #FBF9FA;
+
   --accent-color-p: #FD0054;
   --accent-color-s: #A80038;
+
+  --muted: #1A1A1A;
+  --muted-foreground: #A1A1AA;
+  --border: #27272A;
+  --ring: #FD0054;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+
   --color-accent-p: var(--accent-color-p);
   --color-accent-s: var(--accent-color-s);
-  
+
   --font-sans: 'Helvetica', ui-sans-serif, system-ui, sans-serif;
   --font-display: 'ClashDisplay', ui-sans-serif, system-ui, sans-serif;
 }

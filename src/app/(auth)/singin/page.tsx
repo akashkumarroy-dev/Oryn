@@ -3,12 +3,12 @@ import { Code, ArrowUpRight } from 'reicon-react';
 
 export default function SignInPage() {
   return (
-    <div className="flex min-h-screen flex-col bg-primary font-helvetica text-primary-foreground">
+    <div className="flex min-h-screen flex-col bg-primary font-sans text-primary-foreground">
       {/* Header */}
       <header className="flex items-center justify-between border-b border-primary-foreground/10 px-6 py-4">
         <div className="flex items-center gap-2.5 text-primary-foreground">
           <Code size={22} />
-          <span className="font-clash text-lg font-semibold tracking-tight">Oryn</span>
+          <span className="font-display text-lg font-semibold tracking-tight">Oryn</span>
         </div>
         <Link
           href="/"
@@ -30,7 +30,7 @@ export default function SignInPage() {
               <span>SIGN IN</span>
             </p>
 
-            <h1 className="mb-2 font-clash text-3xl font-medium leading-[1.1] text-primary-foreground">
+            <h1 className="mb-2 font-display text-3xl font-medium leading-[1.1] text-primary-foreground">
               Welcome back.
             </h1>
             <p className="mb-7 text-sm text-primary-foreground/55">
