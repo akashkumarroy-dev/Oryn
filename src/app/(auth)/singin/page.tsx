@@ -11,7 +11,7 @@ export default function SignUpPage() {
         </div>
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-sm text-primary-foreground"
+          className="inline-flex items-center gap-2 text-sm text-primary-foreground transition-colors hover:text-accent-p"
         >
           Back to home <ArrowUpRight size={14} aria-hidden="true" />
         </Link>
@@ -65,7 +65,7 @@ export default function SignUpPage() {
               By creating an account, you agree to our{' '}
               <Link
                 href="/terms"
-                className="text-primary-foreground underline underline-offset-[3px]"
+                className="text-primary-foreground underline underline-offset-[3px] transition-colors hover:text-accent-p"
               >
                 Terms of Service
               </Link>
@@ -73,7 +73,7 @@ export default function SignUpPage() {
               and{' '}
               <Link
                 href="/privacy"
-                className="text-primary-foreground underline underline-offset-[3px]"
+                className="text-primary-foreground underline underline-offset-[3px] transition-colors hover:text-accent-p"
               >
                 Privacy Policy
               </Link>
