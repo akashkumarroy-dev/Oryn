@@ -1,23 +1,25 @@
 @import "tailwindcss";
+@import "./font.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #FBF9FA;
+
+  --accent-color-p: #FD0054;
+  --accent-color-s: #A80038;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-accent-p: var(--accent-color-p);
+  --color-accent-s: var(--accent-color-s);
+  --font-sans: 'Helvetica', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'ClashDisplay', ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: var(--font-sans);
 }
