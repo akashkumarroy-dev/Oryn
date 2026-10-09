@@ -14,6 +14,7 @@
   --color-foreground: var(--foreground);
   --color-accent-p: var(--accent-color-p);
   --color-accent-s: var(--accent-color-s);
+  
   --font-sans: 'Helvetica', ui-sans-serif, system-ui, sans-serif;
   --font-display: 'ClashDisplay', ui-sans-serif, system-ui, sans-serif;
 }
