@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Code } from 'reicon-react';
+import { Code, ArrowUpRight } from 'reicon-react';
 
 export default function SignInPage() {
   return (
@@ -14,7 +14,7 @@ export default function SignInPage() {
           href="/"
           className="inline-flex items-center gap-2 text-sm text-primary-foreground/55 transition-colors hover:text-secondary-foreground"
         >
-          Back to home <span aria-hidden="true">↗</span>
+          Back to home <ArrowUpRight size={14} aria-hidden="true" />
         </Link>
       </header>
 

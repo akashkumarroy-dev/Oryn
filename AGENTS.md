@@ -9,4 +9,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 <!-- END:nextjs-agent-rules -->
 
 
-<!-- BEGIN:project-agent rules -->
+<!-- BEGIN:project-agent-rules -->
+
+- dont touch those files i didn't ask for
+- dont touch env
+
+<!-- END:project-agent-rules -->
