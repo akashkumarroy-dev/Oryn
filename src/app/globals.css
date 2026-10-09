@@ -13,11 +13,6 @@
 
   --accent-color-p: #FD0054;
   --accent-color-s: #A80038;
-
-  --muted: #1A1A1A;
-  --muted-foreground: #A1A1AA;
-  --border: #27272A;
-  --ring: #FD0054;
 }
 
 @theme inline {
@@ -29,11 +24,6 @@
 
   --color-secondary: var(--secondary);
   --color-secondary-foreground: var(--secondary-foreground);
-
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-border: var(--border);
-  --color-ring: var(--ring);
 
   --color-accent-p: var(--accent-color-p);
   --color-accent-s: var(--accent-color-s);
