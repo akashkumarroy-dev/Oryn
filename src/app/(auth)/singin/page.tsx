@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Code, ArrowUpRight } from 'reicon-react';
+import { Code } from 'reicon-react';
+import LinkPrimary from '@/components/ui/LinkPrimary';
 
 export default function SignUpPage() {
   return (
@@ -9,11 +10,8 @@ export default function SignUpPage() {
           <Code size={24} />
           <span className="font-display text-lg font-semibold tracking-tight">Oryn</span>
         </div>
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-sm text-primary-foreground transition-colors hover:text-accent-p"
-        >
-          Back to home <ArrowUpRight size={14} aria-hidden="true" />
+        <Link href="/" className="text-sm">
+          <LinkPrimary text="Back to home" icon="arrow" className="transition-colors hover:text-accent-p" />
         </Link>
       </header>
 
