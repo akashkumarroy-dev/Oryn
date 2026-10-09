@@ -3,13 +3,13 @@
 
 :root {
   --background: #000000;
-  --foreground: #FBF9FA;
+  --foreground: #EEEEEE;
 
   --primary: #000000;
-  --primary-foreground: #FBF9FA;
+  --primary-foreground: #EEEEEE;
 
-  --secondary: #1A1A1A;
-  --secondary-foreground: #FBF9FA;
+  --secondary: #020205;
+  --secondary-foreground: #DDDDDD;
 
   --accent-color-p: #FD0054;
   --accent-color-s: #A80038;
