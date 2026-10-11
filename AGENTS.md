@@ -13,5 +13,6 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 - dont touch those files i didn't ask for
 - dont touch env
+- dont push code in github
 
 <!-- END:project-agent-rules -->
